@@ -1,0 +1,68 @@
+{
+	//Example:
+	"Snippet1": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact,",
+		"prefix": "EXF",
+		"body": [
+			"import React {useState} from 'react';",
+			"import {",
+			"  View,",
+			"  Text, ",
+			"  TouchableOpacity,",
+			"  Image,",
+			"  SafeAreaView,",
+			"} from 'react-native';",
+			"",
+			"import { Style } from './style';",
+			"",
+			"export default function $1 () {",
+			"  return(",
+			"    <SafeAreaView></SafeAreaView>",
+			"  )",
+			"}"
+		],
+		"description": "criar uma nova pagina"
+	},
+	"Snippet2": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact,",
+		"prefix": "Style",
+		"body": [
+			"import {StyleSheet} from 'react-native';",
+			"",
+			"export const Style = StyleSheet.create({",
+			"  Cont:{",
+			"    flex: 1,",
+			"  }",
+			"})"
+		],
+		"description": "Style"
+	},
+	"Snippet3": {
+		"prefix": "Thema",
+		"scope": "javascript,typescript,typescriptreact,javascriptreact,",
+		"body": [
+			"export const Theme = {",
+			"  colors:{},",
+			"  img:{},",
+			"  icon:{},",
+			"}"
+		],
+		"description": "Snippet3"
+	},
+	"Snippet4": {
+		"prefix": "func",
+		"scope": "javascript,typescript,typescriptreact,javascriptreact,",
+		"body": [
+			"const $1 = () => {}"
+		],
+		"description": "Snippet4"
+	},
+	"Snippet5": {
+		"prefix": "State",
+		"scope": "javascript,typescript,typescriptreact,javascriptreact,",
+		"body": [
+			"const [$1, set$1] = useState(); "
+		],
+		"description": "Snippet5"
+	}
+}
